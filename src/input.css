@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components{
+    .button-header{
+        @apply border-white border pl-10 pr-10 rounded-full h-8 flex items-center gap-3;
+    }
+}
