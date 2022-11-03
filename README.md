@@ -22,3 +22,4 @@ That's it, now you should be able to access the styling done on the website
 - [ ] Dark Mode
 - [ ] Functional Login Button 
 - [ ] Functional SignUp Button
+- [ ] Responsive
