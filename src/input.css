@@ -6,4 +6,20 @@
     .button-header{
         @apply border-white border pl-10 pr-10 rounded-full h-8 flex items-center gap-3;
     }
+
+    .footer-icons{
+        @apply w-10 h-10 mt-4 mr-2;
+    }
+
+    .footer-gaps{
+        @apply flex flex-col mr-10;
+    }
+
+    .footer-gaps-links{
+        @apply mt-5 ml-6;
+    }
+}
+
+body::-webkit-scrollbar{
+    display: none;
 }
