@@ -14,7 +14,7 @@ This project use Tailwind to construct a website (just for learning)
 > [Tailwind CSS](https://tailwindcss.com/)
 
     > npm install -D tailwindcss
-    > npx tailwindcss init
+    > npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
     
 That's it, now you should be able to access the styling done on the website
 
