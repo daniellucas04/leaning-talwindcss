@@ -19,7 +19,9 @@ This project use Tailwind to construct a website (just for learning)
 That's it, now you should be able to access the styling done on the website
 
 ### Next features :
-- [ ] Dark Mode
-- [ ] Functional Login Button 
-- [ ] Functional SignUp Button
+- [X] Functional Login Button 
+- [X] Functional SignUp Button
+- [ ] Style Login Page
+- [ ] Style SignUp Page
 - [ ] Responsive
+- [ ] Dark Mode
