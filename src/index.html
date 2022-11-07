@@ -5,68 +5,68 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="/dist/output.css" rel="stylesheet">
-    <title>Document</title>
+    <title>Learn Tailwind CSS</title>
 </head>
 <body>
-    <header class="bg-dark-header w-full h-20 flex items-center space-x-20 p-10">
-        <img class="w-14 h-14 rounded-full" src="https://www.github.com/daniellucas04.png" alt="">
+    <header class="bg-dark-header w-full h-20 flex items-center space-x-20 p-10 place-content-around">
+        <img class="w-14 h-14 rounded-full border-2" src="https://www.github.com/daniellucas04.png" alt="">
         <nav class="flex">
             <ul class="text-white flex flex-row gap-x-10">
-                <li class="hover:text-white-header"><a href="#">Home</a></li>
-                <li class="hover:text-white-header"><a href="#">About</a></li>
-                <li class="hover:text-white-header"><a href="#">Contact</a></li>
-                <li class="hover:text-white-header"><a href="#">Maps</a></li>
-                <li class="hover:text-white-header"><a href="#">Designs</a></li>
-                <li class="hover:text-white-header"><a href="#">Friends</a></li>
+                <li class="text-header"><a href="#">Home</a></li>
+                <li class="text-header"><a href="#">About</a></li>
+                <li class="text-header"><a href="#">Contact</a></li>
+                <li class="text-header"><a href="#">Maps</a></li>
+                <li class="text-header"><a href="#">Designs</a></li>
+                <li class="text-header"><a href="#">Friends</a></li>
             </ul>
         </nav>
         <div class="flex gap-10 ml-10">
-            <button class="w-28 bg-dark-header button-header text-white hover:bg-dark-hover justify-center"><img src="./icons/password_white_18dp.svg" alt="Login icon">Login</button>
-            <button class="w-28 bg-white button-header text-black hover:bg-white-hover justify-center"><img class="w-6 h-6" src="./icons/login_black_18dp.svg" alt="SignUp icon">SignUp</button>
+            <button id="btnLogin" type="button" class="w-28 bg-dark-header button-header text-white hover:bg-dark-hover justify-center"><img src="./icons/password_white_18dp.svg" alt="Login icon">Login</button>
+            <button id="btnSignup" type="button" class="w-28 bg-white button-header text-black hover:bg-white-hover justify-center"><img class="w-6 h-6" src="./icons/login_black_18dp.svg" alt="SignUp icon">SignUp</button>
         </div>
     </header>
     <main class="h-screen w-full flex flex-col">
         <div class="flex justify-center mt-20 font-bold uppercase text-slate-500">Products</div>
-        <div class="flex flex-row gap-x-20 justify-center mt-10">
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+        <div class="div-main">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
         </div>
-        <div class="flex flex-row gap-x-20 justify-center mt-10">
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+        <div class="div-main">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
-            <div class="flex flex-col hover:w-80">
-                <img class="w-72 h-52 border rounded-md border-2" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
+            <div class="card-animation">
+                <img class="img-main" src="https://i.zst.com.br/thumbs/12/3d/17/875414508.jpg">
                 <h1 class="font-bold uppercase text-xl">Simple bike design</h1>
                 <p class="text-xs text-slate-400">Branding | Photography</p>
             </div>
@@ -78,37 +78,47 @@
                 <h1 class="text-white text-3xl font-bold mb-4">Open Designers</h1>
                 <p class="text-white">Open source is source code that is made freely available for possible modification and redistribution. Products include permission to use the source code, design documents, or content of the product</p>
                 <div class="icons-footer flex">
-                    <img class="footer-icons" src="./icons/discord_icon_white.svg" alt="Discord Logo">
-                    <img class="footer-icons" src="./icons/instagram_icon_white.svg" alt="Instagram Logo">
-                    <img class="footer-icons" src="./icons/facebook_icon_white.svg" alt="Facebook Logo">
-                    <img class="footer-icons" src="./icons/twitter_icon_white.svg" alt="Twitter Logo">
+                    <a href="https://www.discord.com/login">
+                        <img class="footer-icons" src="./icons/discord_icon_white.svg" alt="Discord Logo">
+                    </a>
+                    <a href="https://www.instagram.com/login">
+                        <img class="footer-icons" src="./icons/instagram_icon_white.svg" alt="Instagram Logo">
+                    </a>
+                    <a href="https://www.facebook.com/login">
+                        <img class="footer-icons" src="./icons/facebook_icon_white.svg" alt="Facebook Logo">
+                    </a>
+                    <a href="https://www.twitter.com/login">
+                        <img class="footer-icons" src="./icons/twitter_icon_white.svg" alt="Twitter Logo">
+                    </a>
                 </div>
             </div>
             <div class="flex flex-row text-white ml-20 mb-10 mt-5">
                 <div class="footer-gaps">
                     <h1 class="font-bold text-3xl">Explore</h1>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Go pro</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Explore Designs</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Create Designs</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Playoffs</a>
+                    <a class="footer-text" href="#">Go pro</a>
+                    <a class="footer-text" href="#">Explore Designs</a>
+                    <a class="footer-text" href="#">Create Designs</a>
+                    <a class="footer-text" href="#">Playoffs</a>
                 </div>
                 <div class="footer-gaps">
                     <h1 class="font-bold text-3xl">Innovate</h1>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Tags</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">API</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Places</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Creative Markets</a>
+                    <a class="footer-text" href="#">Tags</a>
+                    <a class="footer-text" href="#">API</a>
+                    <a class="footer-text" href="#">Places</a>
+                    <a class="footer-text" href="#">Creative Markets</a>
                 </div>
                 <div class="footer-gaps">
                     <h1 class="font-bold text-3xl">About</h1>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Community</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Designers</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Support</a>
-                    <a class="footer-gaps-links hover:text-white-header" href="#">Terms of service</a>
+                    <a class="footer-text" href="#">Community</a>
+                    <a class="footer-text" href="#">Designers</a>
+                    <a class="footer-text" href="#">Support</a>
+                    <a class="footer-text" href="#">Terms of service</a>
                 </div>
             </div>
         </div>
     </footer>
-    <div class="w-full h-5 bg-white ml-20">All Rights Reserved</div>
+    <div class="w-auto h-5 bg-white ml-20">All Rights Reserved</div>
+
+    <script src="script.js"></script>
 </body>
 </html>

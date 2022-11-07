@@ -9,6 +9,10 @@
         @apply border-white border pl-10 pr-10 rounded-full h-8 flex items-center gap-3;
     }
 
+    .text-header{
+        @apply hover:text-white-header;
+    }
+
     .footer-icons{
         @apply w-10 h-10 mt-4 mr-2;
     }
@@ -19,6 +23,22 @@
 
     .footer-gaps-links{
         @apply mt-5 ml-6;
+    }
+
+    .card-animation{
+        @apply flex flex-col hover:translate-y-1 hover:scale-110 transition;
+    }
+
+    .img-main{
+        @apply w-72 h-52 border rounded-md border-2;
+    }
+
+    .div-main{
+        @apply flex flex-row gap-x-20 justify-center mt-10;
+    }
+
+    .footer-text{
+        @apply footer-gaps-links hover:text-white-header;
     }
 }
 
