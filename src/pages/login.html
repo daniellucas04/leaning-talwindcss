@@ -1,12 +1,31 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    <link href="/dist/output.css" rel="stylesheet">
 </head>
-<body>
-    Login
+
+<body class="flex justify-center align-center">
+    <div class="border-2 m-10 p-10 w-80 h-96 rounded-lg">
+        <span class="font-bold flex justify-center mb-6 text-2xl">Login</span>
+        <div class="flex align-center justify-center">
+            <form class="flex flex-col space-y-4">
+                <label for="email">Email</label>
+                <input class="border-b-2" type="email " name="email " id="email " placeholder="Type your email">
+
+                <label for="password ">Password</label>
+                <input class="border-b-2" type="password" name="password " id="password " placeholder="Type your password">
+                <i src="../icons/user_icon_black.svg"></i>
+                <a class="text-right text-xs" href="#">Forgot password?</a>
+
+                <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Login</button>
+            </form>
+        </div>
+    </div>
 </body>
+
 </html>
