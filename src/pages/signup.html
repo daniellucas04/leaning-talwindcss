@@ -5,10 +5,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login Page</title>
+    <title>SignUp Page</title>
     <link href="/dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="pages.css">
-
 </head>
 
 <body class="flex flex-col justify-center align-center">
@@ -20,7 +18,7 @@
          </nav>
      </header>
      <main class="flex align-center justify-center">
-         <div class="border-2 shadow-md shadow-gray-400 m-10 p-10 w-80 h-86 rounded-lg">
+         <div class="form-template">
              <span class="font-bold flex justify-center mb-3 text-2xl">Sign Up</span>
              <div class="flex align-center justify-center">
                  <form class="flex flex-col space-y-4">
@@ -32,6 +30,7 @@
                      <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Type your password">
                      <label for="password ">Confirm Password</label>
                      <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Confirm your password">
+                     <a class="text-left text-xs hover:text-white-header" href="../pages/login.html">Already have an account?</a>
                      <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Sign Up</button>
                  </form>
              </div>

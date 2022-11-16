@@ -7,7 +7,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="/dist/output.css" rel="stylesheet">
-    <link rel="stylesheet" href="pages.css">
 </head>
 
 <body class="flex flex-col justify-center align-center">
@@ -19,7 +18,7 @@
         </nav>
     </header>
     <main class="flex align-center justify-center">
-        <div class="border-2 shadow-md shadow-gray-400 m-10 p-10 w-80 h-86 rounded-lg">
+        <div class="form-template">
             <span class="font-bold flex justify-center mb-3 text-2xl">Login</span>
             <div class="flex align-center justify-center">
                 <form class="flex flex-col space-y-4">
@@ -28,12 +27,13 @@
     
                     <label for="password ">Password</label>
                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Type your password">
-                    <i src="../icons/user_icon_black.svg"></i>
-                    <a class="text-right text-xs hover:text-white-header" href="#">Forgot password?</a>
-    
+                    <div class="flex gap-x-4">
+                        <a class="text-left text-xs hover:text-white-header" href="../pages/signup.html">Don't have an account?</a>
+                        <a class="text-right text-xs hover:text-white-header" href="../pages/forgot-password.html">Forgot password?</a>
+                    </div>
                     <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Login</button>
                 
-                    <div class="flex">
+                    <div class="flex justify-center">
                         <a class="m-5" href="#"><img src="../icons/logo-google.svg" width="30px" height="30px" alt="Google logo"></a>
                         <a class="m-5" href="#"><img src="../icons/logo-facebook.svg" width="30px" height="30px" alt="Facebook logo"></a>
                         <a class="m-5" href="#"><img src="../icons/logo-github.svg" width="30px" height="30px" alt="Google logo"></a>

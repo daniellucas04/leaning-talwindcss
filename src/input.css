@@ -26,19 +26,23 @@
     }
 
     .card-animation{
-        @apply flex flex-col hover:translate-y-1 hover:scale-110 transition;
+        @apply flex flex-col hover:translate-y-1 hover:scale-110 transition shadow-md h-72 p-3.5;
     }
 
     .img-main{
-        @apply w-72 h-52 border rounded-md border-2;
+        @apply w-72 h-52 rounded-md;
     }
 
     .div-main{
-        @apply flex flex-row gap-x-20 justify-center;
+        @apply flex flex-row gap-x-10 justify-center;
     }
 
     .footer-text{
         @apply footer-gaps-links hover:text-white-header;
+    }
+
+    .form-template{
+        @apply border-2 shadow-md shadow-gray-400 m-10 p-10 w-96 h-auto rounded-lg;
     }
 }
 
