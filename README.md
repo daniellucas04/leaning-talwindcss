@@ -9,9 +9,9 @@ This project use Tailwind to construct a website (just for learning)
 
 # To use this project install:
 
-> [NodeJS ≥ v16.10.0](https://nodejs.org/en/)
+> ![Node](https://img.shields.io/badge/Node-%E2%89%A5%20v16.10.0-green?style=for-the-badge&logo=node.js&color=blue)
 
-> [Tailwind CSS](https://tailwindcss.com/)
+> ![Node](https://img.shields.io/badge/Tailwindcss-%E2%89%A5%20v3.2.4-green?style=for-the-badge&logo=tailwindcss&color=blue)
 
     > npm install -D tailwindcss
     > npx tailwindcss -i ./src/input.css -o ./dist/output.css --watch
@@ -21,7 +21,7 @@ That's it, now you should be able to access the styling done on the website
 ### Features :
 - [X] Functional Login Button 
 - [X] Functional SignUp Button
-- [ ] Style Login Page
-- [ ] Style SignUp Page
+- [X] Style Login Page
+- [X] Style SignUp Page
 - [ ] Responsive
 - [ ] Dark Mode
