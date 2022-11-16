@@ -4,9 +4,6 @@
 This project use Tailwind to construct a website (just for learning)
 ```
 
-## Header
-![image](https://user-images.githubusercontent.com/97129532/199622738-73954845-e7ab-4641-9b6c-9e4844fd5f2e.png)
-
 # To use this project install:
 
 > ![Node](https://img.shields.io/badge/Node-%E2%89%A5%20v16.10.0-green?style=for-the-badge&logo=node.js&color=blue)
