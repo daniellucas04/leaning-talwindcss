@@ -7,25 +7,41 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login Page</title>
     <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="pages.css">
 </head>
 
-<body class="flex justify-center align-center">
-    <div class="border-2 m-10 p-10 w-80 h-96 rounded-lg">
-        <span class="font-bold flex justify-center mb-6 text-2xl">Login</span>
-        <div class="flex align-center justify-center">
-            <form class="flex flex-col space-y-4">
-                <label for="email">Email</label>
-                <input class="border-b-2" type="email " name="email " id="email " placeholder="Type your email">
-
-                <label for="password ">Password</label>
-                <input class="border-b-2" type="password" name="password " id="password " placeholder="Type your password">
-                <i src="../icons/user_icon_black.svg"></i>
-                <a class="text-right text-xs" href="#">Forgot password?</a>
-
-                <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Login</button>
-            </form>
+<body class="flex flex-col justify-center align-center">
+    <header class="bg-dark-header w-full h-20 flex items-center justify-center"> 
+       <nav class="flex">
+            <ul class="text-white flex flex-row gap-x-10 justify-center">
+                <li class="text-header"><a href="../index.html">Homepage</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main class="flex align-center justify-center">
+        <div class="border-2 shadow-md shadow-gray-400 m-10 p-10 w-80 h-86 rounded-lg">
+            <span class="font-bold flex justify-center mb-3 text-2xl">Login</span>
+            <div class="flex align-center justify-center">
+                <form class="flex flex-col space-y-4">
+                    <label for="email">Email</label>
+                    <input class="border-b-2 border-black p-1 focus:outline-none" type="email " name="email " id="email " placeholder="Type your email">
+    
+                    <label for="password ">Password</label>
+                    <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Type your password">
+                    <i src="../icons/user_icon_black.svg"></i>
+                    <a class="text-right text-xs hover:text-white-header" href="#">Forgot password?</a>
+    
+                    <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Login</button>
+                
+                    <div class="flex">
+                        <a class="m-5" href="#"><img src="../icons/logo-google.svg" width="30px" height="30px" alt="Google logo"></a>
+                        <a class="m-5" href="#"><img src="../icons/logo-facebook.svg" width="30px" height="30px" alt="Facebook logo"></a>
+                        <a class="m-5" href="#"><img src="../icons/logo-github.svg" width="30px" height="30px" alt="Google logo"></a>
+                    </div>
+                </form>
+            </div>
         </div>
-    </div>
+    </main>
 </body>
 
 </html>

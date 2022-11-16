@@ -1,12 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login Page</title>
+    <link href="/dist/output.css" rel="stylesheet">
+    <link rel="stylesheet" href="pages.css">
+
 </head>
-<body>
-    Signup
+
+<body class="flex flex-col justify-center align-center">
+    <header class="bg-dark-header w-full h-20 flex items-center justify-center"> 
+        <nav class="flex">
+             <ul class="text-white flex flex-row gap-x-10 justify-center">
+                 <li class="text-header"><a href="../index.html">Homepage</a></li>
+             </ul>
+         </nav>
+     </header>
+     <main class="flex align-center justify-center">
+         <div class="border-2 shadow-md shadow-gray-400 m-10 p-10 w-80 h-86 rounded-lg">
+             <span class="font-bold flex justify-center mb-3 text-2xl">Sign Up</span>
+             <div class="flex align-center justify-center">
+                 <form class="flex flex-col space-y-4">
+                     <label for="email">Username</label>
+                     <input class="border-b-2 border-black p-1 focus:outline-none" type="text " name="email " id="email " placeholder="Type your username">
+                     <label for="email">Email</label>
+                     <input class="border-b-2 border-black p-1 focus:outline-none" type="email " name="email " id="email " placeholder="Type your email">
+                     <label for="password ">Password</label>
+                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Type your password">
+                     <label for="password ">Confirm Password</label>
+                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Confirm your password">
+                     <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Sign Up</button>
+                 </form>
+             </div>
+         </div>
+     </main>
 </body>
+
 </html>
