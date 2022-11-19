@@ -1,5 +1,4 @@
 //send Email to reset password
-
 const userEmail = document.getElementById('email');
 const submit = document.getElementsByClassName('flex')[0];
 
@@ -20,7 +19,8 @@ function verifyEmail(email){
 
 submit.addEventListener('submit', (e) => {
     e.preventDefault();
-    const rightEmail = verifyEmail(email.value);
+    const rightEmail = verifyEmail(userEmail.value);
+    console.log(userEmail.value);
 
     if(rightEmail == true){
         Email.send({
@@ -30,7 +30,7 @@ submit.addEventListener('submit', (e) => {
             Subject: "Password Reset",
             Body: "Reset your password"
         }).then(message => alert(message));
-    }else{
-        alert("This email are not registered.");
+    }else if(rightEmail == false || userEmail.value === ''){
+        alert("Please inform a valid email.");
     }
 });
