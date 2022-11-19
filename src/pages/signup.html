@@ -23,19 +23,21 @@
              <div class="flex align-center justify-center">
                  <form class="flex flex-col space-y-4">
                      <label for="email">Username</label>
-                     <input class="border-b-2 border-black p-1 focus:outline-none" type="text " name="email " id="email " placeholder="Type your username">
+                     <input class="border-b-2 border-black p-1 focus:outline-none" type="text" name="username" id="username" placeholder="Type your username" autocomplete="username">
                      <label for="email">Email</label>
-                     <input class="border-b-2 border-black p-1 focus:outline-none" type="email " name="email " id="email " placeholder="Type your email">
+                     <input class="border-b-2 border-black p-1 focus:outline-none" type="email" name="email" id="email" placeholder="Type your email" autocomplete="email">
                      <label for="password ">Password</label>
-                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Type your password">
+                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password" id="password" placeholder="Type your password" autocomplete="new-password">
                      <label for="password ">Confirm Password</label>
-                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Confirm your password">
+                     <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="confirm_password" id="confirm_password" placeholder="Confirm your password" autocomplete="new-password">
                      <a class="text-left text-xs hover:text-white-header" href="../pages/login.html">Already have an account?</a>
-                     <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Sign Up</button>
+                     <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button" id="signUpButton">Sign Up</button>
                  </form>
              </div>
          </div>
      </main>
+     <script type="text/javascript" src="../pages/scripts/localDB/localdb.min.js"></script>
+     <script src="../pages/scripts/signup.js"></script>
 </body>
 
 </html>

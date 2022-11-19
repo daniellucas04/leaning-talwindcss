@@ -23,15 +23,15 @@
             <div class="flex align-center justify-center">
                 <form class="flex flex-col space-y-4">
                     <label for="email">Email</label>
-                    <input class="border-b-2 border-black p-1 focus:outline-none" type="email " name="email " id="email " placeholder="Type your email">
+                    <input class="border-b-2 border-black p-1 focus:outline-none" type="email" name="email" id="email" placeholder="Type your email" autocomplete="email">
     
                     <label for="password ">Password</label>
-                    <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password " id="password " placeholder="Type your password">
+                    <input class="border-b-2 border-black p-1.5 focus:outline-none" type="password" name="password" id="password" placeholder="Type your password" autocomplete="new-password">
                     <div class="flex gap-x-4">
                         <a class="text-left text-xs hover:text-white-header" href="../pages/signup.html">Don't have an account?</a>
                         <a class="text-right text-xs hover:text-white-header" href="../pages/forgot-password.html">Forgot password?</a>
                     </div>
-                    <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button">Login</button>
+                    <button class="h-10 rounded-full text-white bg-neutral-700 hover:bg-dark-hover" type="button" id="loginButton">Login</button>
                 
                     <div class="flex justify-center">
                         <a class="m-5" href="#"><img src="../icons/logo-google.svg" width="30px" height="30px" alt="Google logo"></a>
@@ -42,6 +42,8 @@
             </div>
         </div>
     </main>
+    <script type="text/javascript" src="../pages/scripts/localDB/localdb.min.js"></script>
+    <script src="../pages/scripts/login.js"></script>
 </body>
 
 </html>
