@@ -26,11 +26,11 @@
     }
 
     .card-animation{
-        @apply flex flex-col hover:translate-y-1 hover:scale-110 transition shadow-md h-72 p-3.5;
+        @apply flex flex-col hover:translate-y-1 hover:scale-110 transition shadow-md h-128 p-5 rounded-md;
     }
 
     .img-main{
-        @apply w-72 h-52 rounded-md;
+        @apply w-auto h-64 rounded-md;
     }
 
     .div-main{
@@ -43,6 +43,22 @@
 
     .form-template{
         @apply border-2 shadow-md shadow-gray-400 m-10 p-10 w-96 h-auto rounded-lg;
+    }
+
+    .animation-card-img{
+        @apply w-full h-80;
+    }
+
+    .animation-card-h1{
+        @apply text-3xl;
+    }
+
+    .animation-card-p{
+        @apply text-base;
+    }
+    
+    .animation-card-size{
+        @apply h-256 shadow-md rounded-md p-5
     }
 }
 
