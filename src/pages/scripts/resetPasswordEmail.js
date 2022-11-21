@@ -20,8 +20,6 @@ function verifyEmail(email){
 submit.addEventListener('submit', (e) => {
     e.preventDefault();
     const rightEmail = verifyEmail(userEmail.value);
-    console.log(userEmail.value);
-
     if(rightEmail == true){
         Email.send({
             SecureToken: "c97614f3-212e-4e92-89ac-c6055379c75c",

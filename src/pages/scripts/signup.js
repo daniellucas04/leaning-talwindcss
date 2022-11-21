@@ -19,7 +19,8 @@ function saveData(){
 
     if(databaseExists == true || tableExists == true){
         database.insert('database', {'username': username, 'email': email, 'password': password});
-        alert('You have been successfully registered.')
+        alert('You have been successfully registered.');
+        window.location.href = "../../src/pages/login.html";
     } else return console.log('Database our Table not created');
 }
 
