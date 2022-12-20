@@ -1,7 +1,7 @@
-# Learning Tailwind CSS
+# Website Wallpapers - TailwinindCSS
 
 ```js
-This project use Tailwind to construct a website (just for learning)
+This project use Tailwind to construct a website
 ```
 
 # To use this project install:
