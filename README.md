@@ -15,6 +15,13 @@ This project use Tailwind to construct a website
     
 That's it, now you should be able to access the styling done on the website
 
+# Images
+### Homepage
+![image](https://user-images.githubusercontent.com/97129532/209883055-7580bf59-d043-42a8-ac13-964c20a6333f.png)
+
+### Footer
+![image](https://user-images.githubusercontent.com/97129532/209883113-b38be0b7-fe25-42ba-b31d-f3d05edfe404.png)
+
 ### Features :
 - [X] Functional Login Button 
 - [X] Functional SignUp Button
